@@ -10,6 +10,7 @@ var usersRouter = require('./routes/users');
 var multer = require('multer')
 var upload = multer(); // for parsing multipart/form-data
 var uuid = require('uuid')
+var redis= require
 
 var app = express();
 app.use(cors())
